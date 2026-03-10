@@ -10,3 +10,12 @@ elif e > d:
     print("e is larger than d")
 else:
     print("d and e are equal")
+X = True
+Y = False
+W = X or Y
+# Truth table for W = X or Y:
+# X      Y      W
+# True   True   True
+# True   False  True
+# False  True   True
+# False  False  False
