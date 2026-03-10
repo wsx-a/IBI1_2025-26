@@ -1,5 +1,6 @@
 This is an example file for reflection in IBI1_2025-26.
-
+I'm learning something completely new.
 During this course, I have learnt version control, how to navigate Unix-like systems and how to write simple programs in Python.
-
+I think it is very difficult for me.
 I was able to edit this file to show changes in the lecture
+But I'm happy to learn things I had never been exposed to before.
