@@ -13,6 +13,7 @@ else:
 X = True
 Y = False
 W = X or Y
+print("X or Y is", W)
 # Truth table for W = X or Y:
 # X      Y      W
 # True   True   True
