@@ -6,10 +6,10 @@ plt.xlabel("Gene")
 plt.ylabel("Expression")
 plt.title("Gene Expression Levels")
 plt.show()
-target_gene in genes = 'TP53'
+target_gene = 'TP53'
 if target_gene in genes:
-    print(target_gene, 'exprssion value is', genes[target_gene])
+    print(target_gene, 'expression value is', genes[target_gene])
 else:
-    print('Error: gene not fount')
+    print('Error: gene not found')
 average = sum(genes.values()) / len(genes)
 print('Average gene expression is', average)
