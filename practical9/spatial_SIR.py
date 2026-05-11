@@ -1,5 +1,22 @@
 import numpy as np
 import matplotlib.pyplot as plt
+# pseudocode
+# 1. Create a 100x100 population grid:
+#    0 = susceptible
+#    1 = infected
+#    2 = recovered
+# 2. Randomly choose one cell as the initial infected individual.
+# 3. Set the model parameters beta and gamma.
+# 4. Plot the population at time 0.
+# 5. For each time point from 1 to 100:
+#    - make a copy of the current population grid
+#    - find all infected cells
+#    - for each infected cell, check its 8 neighbours
+#    - if a neighbour is susceptible, infect it with probability beta
+#    - allow the infected cell to recover with probability gamma
+#    - update the population grid
+# 6. Plot the population at selected time points
+#    to show how the infection spreads and how recovery appears.
 population = np.zeros((100, 100), dtype=int)
 outbreak = np.random.choice(range(100), 2)
 population[outbreak[0], outbreak[1]] = 1
