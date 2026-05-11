@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-input_file = ""
+input_file = "E:/IBI1/IBI1_2025-26/Practical7/Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa"
 valid_stops = ["TAA", "TAG", "TGA"]
 user_stop = input("Enter a stop codon (TAA, TAG, or TGA): ").upper()
 if user_stop not in valid_stops:
