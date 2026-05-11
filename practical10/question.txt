@@ -1,0 +1,8 @@
+Question:
+How has the relationship between the DALYs in China and the United Kingdom changed over time?
+
+Line number:
+The code for this question starts at line 69 in dalys.py.
+
+Discussion:
+This question compares DALYs in China and the United Kingdom over time. The first graph shows the DALYs of both countries across the years, and the second graph shows the difference between them. The results show that DALYs in both countries decrease over time, but the difference between China and the United Kingdom also becomes smaller. This means the gap in DALYs between the two countries narrows over time. From the difference graph, the value drops from about 14000 in the early years to around 1000–2000 by 2019. This suggests that the DALYs burden in China and the UK became more similar over time.
