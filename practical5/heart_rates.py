@@ -1,6 +1,8 @@
 heart_rates = [72, 60, 126, 85, 90, 59, 76, 131, 88, 121, 64]
 total_patients = len(heart_rates)
 average_heart_rate = sum(heart_rates) / len(heart_rates)
+print("Number of patients:", total_patients)
+print("Mean heart rate:", average_heart_rate)
 low = 0
 normal = 0
 high = 0
@@ -21,6 +23,6 @@ elif normal > low and normal > high:
 else:
     print("Most patients are in high category.")
 import matplotlib.pyplot as plt
-plt.pie([low, normal, high], labels=["LOW", "Normal", "High"])
+plt.pie([low, normal, high], labels=["Low", "Normal", "High"], autopct="%1.1f%%")
 plt.title("Heart Rate Categories")
 plt.show()

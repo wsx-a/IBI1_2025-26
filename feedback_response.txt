@@ -1,0 +1,25 @@
+feedback_response.txt
+
+This file explains how I responded to the feedback for Weeks 3 to 5.
+
+Week 3
+I read the feedback that my commit messages were somewhat descriptive but repetitive and not specific enough.
+In response, I tried to make later commit messages clearer and more specific about what files I changed and what I updated.
+
+Week 4
+I edited creatine_clearance.py.
+The feedback said that comments were present, but they were not structured as pseudocode steps.
+I changed the comments so that they were written more clearly as pseudocode-style steps to better explain the procedure of the program.
+
+Week 5
+I edited heart_rates.py.
+The feedback said that the number of patients and the mean heart rate were calculated but not printed.
+I changed the script so that it now prints the number of patients and the mean heart rate to the screen.
+
+I also edited heart_rates.py to improve the pie chart.
+The feedback said that the pie chart had category labels and a title, but it did not show the numbers or percentages for each category.
+I changed the pie chart so that it now shows the values more clearly for each category.
+
+Other Week 5 scripts such as the gene expression script and the population growth script did not need changes because they already met the requirements.
+
+I have read the feedback and made the changes described above.
