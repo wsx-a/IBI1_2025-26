@@ -1,6 +1,7 @@
-We ran a BLAST search with human DLX5 (UniProt ID: P56178) against Eutheria and found 250 hits. Mouse DLX5 (UniProt ID: P70396) came out with 96.5% identity, which is really high.
-We then did a Python-based global alignment using the BLOSUM62 matrix:
-Human vs Mouse DLX5: Score = 1452, Identity = 96.54%
-Human vs random sequence: Score = -1110, Identity = 1.73%
-Mouse vs random sequence: Score = -1110, Identity = 1.73%
-The real sequences gave way higher scores and identity than the random one, which confirms that human and mouse DLX5 are highly conserved homologs, and the BLOSUM62 matrix works as expected.
+The human DLX5 protein (UniProt ID: P56178) is 289 amino acids long and is located in the nucleus.
+I ran BLAST against Eutheria (placental mammals) and obtained 250 hits. The percentage identity ranged from 52.3% to 100%. The mouse DLX5 (P70396) showed 96.5% identity with human DLX5.
+I then used Python to do a non-gapped global alignment with the BLOSUM62 matrix, which is a standard scoring matrix for protein sequence alignment. I compared three pairs:
+Human vs Mouse: Score = 1452, Identity = 96.54%
+Human vs Random: Score = -1110, Identity = 1.73%
+Mouse vs Random: Score = -1110, Identity = 1.73%
+Human and mouse DLX5 have much higher scores and identity than random sequences. This means they are the most closely related and highly conserved.
